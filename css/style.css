@@ -18,11 +18,12 @@ body{
   color: white;
 }
 
-.form_dati{
+.form_dati,
+.dati_biglietto{
   width: 80%;
   /* height: 200px; */
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 2px 2px 3px #5c575c;
@@ -43,7 +44,6 @@ body{
 .col label{
   font-weight: bold;
   color: crimson;
-
 }
 
 .col input,
@@ -56,13 +56,62 @@ body{
   margin: 10px 20px;
 }
 
+input::placeholder{
+  text-align: center;
+}
+
+input:focus::placeholder{
+  color: white;
+}
+
+input:focus{
+  background-color: crimson;
+  color: white;
+}
+
 /* Button */
 .btn{
-  font-weight: bold;
   margin: 10px;
   padding: 5px;
   border: 1px solid grey;
   border-radius: 3px;
+  font-weight: bold;
   color: crimson;
   background-color: lightgrey;
+  cursor: pointer;
+}
+
+.btn:focus{
+  color: white;
+  background-color: grey;
+}
+
+/* Il tuo biglietto */
+.box_biglietto{
+  border-top: 2px solid lightgrey;
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.box-name{
+  width: 20%;
+  height: auto;
+  background-color: grey;
+}
+
+.box_date{
+  width: 80%;
+  height: auto;
+}
+
+.box_date th{
+  padding: 10px 20px;
+}
+
+.dati_calcolati td{
+  text-align: center;
+
 }
