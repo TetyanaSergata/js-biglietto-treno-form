@@ -3,11 +3,55 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <title>Biglietto treno <form class="" action="index.html" method="post">
-
-    </form></title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Biglietto treno</title>
   </head>
   <body>
+    <!-- Calcola il prezzo -->
+    <div class="wrapper">
+      <h1 class="title">
+        Calcola il prezzo del tuo biglietto</h1>
+        <!-- Dati -->
+      <div class="form_dati">
+        <div class="row">
+          <div class="col">
+            <label for="nome">Nome Cognome</label>
+            <input id="nome" type="text" name="" value="">
+          </div>
+          <div class="col">
+            <label for="km">Km da percorrere</label>
+            <input id="km" type="text" name="" value="">
+          </div>
+          <div class="col">
+            <label for="km">Fascia d'et&agrave;</label>
+            <select id="fascia_eta" class="" name="">
+              <option value="minorenne">
+                Minorenne</option>
+              <option value="maggiorenne">
+                Maggiorenne
+              </option>
+              <option value="over_65">Over 65</option>
+            </select>
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="row">
+            <button class="btn" type="button" name="button">Genera</button>
+            
+            <button class="btn" type="button" name="button">Annulla</button>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
     <script src="javascript/script.js" charset="utf-8"></script>
   </body>
 </html>
