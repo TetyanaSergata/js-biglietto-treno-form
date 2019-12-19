@@ -98,6 +98,7 @@ h3{
 
 .box-name{
   width: 20%;
+  padding: 10px;
   height: auto;
   background-color: grey;
 }
