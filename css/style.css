@@ -88,18 +88,22 @@ input:focus{
 
 /* Il tuo biglietto */
 .box_biglietto{
+  min-height: 150px;
   border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
 }
 
 h3{
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .box-name{
   width: 20%;
+  justify-content: center;
   padding: 10px;
-  height: auto;
+  margin: 0;
   background-color: grey;
 }
 
@@ -114,5 +118,4 @@ h3{
 
 .dati_calcolati td{
   text-align: center;
-
 }
